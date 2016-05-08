@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="WarehouseApp.view.menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ViewModel ="clr-namespace:WarehouseApp.viewmodel"
+             d:DataContext="{Binding Source={d:DesignInstance IsDesignTimeCreatable=True,Type=ViewModel:MenuViewModel}}"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="ItemMenu">
+            <Grid>
+                <TextBlock
+                    Foreground="#ffffff"
+                    Background="{x:Null}"
+                    Text="{Binding NamaMenu}"
+                    Cursor="Hand"
+                    Margin="5,10,5,10"
+                    />
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <ListBox
+                Background="{x:Null}"
+                x:Name="ListMenu"
+                ItemsSource="{Binding  Menu, Mode=TwoWay}"
+                ItemTemplate="{StaticResource ItemMenu}"
+                Foreground="#ffffff"
+                FontSize="18"
+                BorderBrush="{x:Null}" SelectionChanged="ListMenu_SelectionChanged"
+                />
+    </Grid>
+</UserControl>

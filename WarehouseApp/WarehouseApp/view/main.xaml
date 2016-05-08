@@ -1,0 +1,169 @@
+﻿<Window x:Class="WarehouseApp.view.main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+        mc:Ignorable="d" 
+        d:DesignHeight="600" d:DesignWidth="800"
+	Title="PTP Warehouse" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+              Margin="10,5,5,10">
+            <TextBlock
+                x:Name="exitbtn"
+                HorizontalAlignment="Right"
+                Text="X"
+                Width="16"
+                Height="16"
+                Foreground="#BF0000"
+                FontWeight="Bold"
+                FontStretch="ExtraExpanded"
+                FontSize="15"
+                Cursor="Hand" MouseLeftButtonUp="exitbtn_MouseLeftButtonUp"/>
+            <DockPanel>
+                <Image
+                x:Name="LogoImg"
+                Source="/WarehouseApp;component/Resources/logo.png"
+                Width="50"
+                Height="50"
+                DockPanel.Dock="Left"
+                HorizontalAlignment="Left"/>
+                <TextBlock
+                    Text="PT. Blantackindo"
+                    TextAlignment="Left" 
+                    FontWeight="Bold" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" 
+                    FontSize="36" 
+                    FontStyle="Italic"
+                   Foreground="#09D92B">
+                </TextBlock>
+            </DockPanel>
+        </StackPanel>
+        <Grid
+            Margin="10"
+            Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <!--Menu Utama-->
+            <StackPanel
+                x:Name="menu_utama"
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
+                Orientation="Horizontal"
+                Margin="0,5,0,10"
+                >
+                <DockPanel
+                   x:Name="LaporanBtn"
+                   Width="110"
+                    Height="50"
+                    Margin="0,0,10,0" MouseLeftButtonUp="LaporanBtn_MouseLeftButtonUp">
+                    <Image
+                      Source="/WarehouseApp;component/Resources/olap.png"
+                      Width="30"
+                      Height="30"
+                      DockPanel.Dock="Left"
+                      HorizontalAlignment="Left"/>
+                    <TextBlock
+                    x:Name="laporan_menu"
+                    Text="Laporan" 
+                    Width="80"
+                    Height="25"
+                    Foreground="#3D7A11"
+                    FontWeight="Bold"
+                    FontSize="18"
+                    Cursor="Hand"
+                    Margin="5"/>
+                </DockPanel>
+                <DockPanel
+                    x:Name="FactBtn"
+                    Width="110"
+                    Height="50"
+                    Margin="0,0,10,0" MouseLeftButtonUp="FactBtn_MouseLeftButtonUp">
+                    <Image
+                      Source="/WarehouseApp;component/Resources/table.png"
+                      Width="30"
+                      Height="30"
+                      DockPanel.Dock="Left"
+                      HorizontalAlignment="Left"/>
+                    <TextBlock
+                    x:Name="fakta_menu"
+                    Text="Fakta" 
+                    Width="55"
+                    Height="25"
+                    Foreground="#3D7A11"
+                    FontWeight="Bold"
+                    FontSize="18"
+                    Margin="5"/>
+                </DockPanel>
+                
+                <DockPanel
+                    Width="110"
+                    Height="50"
+                    Margin="0,0,10,0"
+                    x:Name="dimBtn" MouseLeftButtonUp="dimBtn_MouseLeftButtonUp">
+                    <Image
+                      Source="/WarehouseApp;component/Resources/table.png"
+                      Width="30"
+                      Height="30"
+                      DockPanel.Dock="Left"
+                      HorizontalAlignment="Left"/>
+                <TextBlock
+                    x:Name="dimensi_menu"
+                    Text="Dimensi" 
+                    Width="80"
+                    Height="25"
+                    Foreground="#3D7A11"
+                    FontWeight="Bold"
+                    FontSize="18"
+                    Cursor="Hand"
+                    Margin="5"/>
+                </DockPanel>
+            </StackPanel>
+            <Rectangle
+                Grid.ColumnSpan="2"
+            Fill="#FF71FF88"
+            Height="2"
+             HorizontalAlignment="Stretch"
+                VerticalAlignment="Bottom"/>
+
+            <!--submenu-->
+
+            <StackPanel
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    x:Name="submenu"
+                    ScrollViewer.VerticalScrollBarVisibility ="Hidden"
+                    >
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="#FF71FF88" Offset="0.003"/>
+                        <GradientStop Color="#FF79FF5B" Offset="1"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <StackPanel.Children>
+
+                </StackPanel.Children>
+            </StackPanel>
+
+            <StackPanel
+                Grid.Column="1"
+                Grid.Row="1"
+                x:FieldModifier="public"
+                x:Name="Content">
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
