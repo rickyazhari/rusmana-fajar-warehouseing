@@ -52,6 +52,21 @@ namespace WarehouseApp.view.OLAP
             pivotGridControl.ShowPrintPreviewDialog(parent, "Laporan Handle Projek", "Laporan Handle Projek");
         }
 
+        private void spPrintBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            printBtn_MouseLeftButtonUp(sender, e);
+        }
+
+        private void spChartBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            ChartBtn_MouseLeftButtonUp(sender, e);
+        }
+
+        private void spPivotBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            PivotBtn_MouseLeftButtonUp(sender, e);
+        }
+
 
     }
 }

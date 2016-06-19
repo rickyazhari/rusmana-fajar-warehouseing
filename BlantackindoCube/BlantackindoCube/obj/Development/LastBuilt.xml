@@ -1,6 +1,6 @@
 ﻿<Infos>
   <Item name="HandleProjekCube.partitions">
-    <Time>636018815947303043</Time>
+    <Time>636019734618960145</Time>
     <Hash length="20">
       <b>235</b>
       <b>57</b>
@@ -25,7 +25,7 @@
     </Hash>
   </Item>
   <Item name="PengeluaranNonProjekCube.cube">
-    <Time>636018818048827286</Time>
+    <Time>636019734619000147</Time>
     <Hash length="20">
       <b>124</b>
       <b>236</b>
@@ -50,7 +50,7 @@
     </Hash>
   </Item>
   <Item name="Dim Wilayah.dim">
-    <Time>636018815461133280</Time>
+    <Time>636019734618910142</Time>
     <Hash length="20">
       <b>147</b>
       <b>187</b>
@@ -74,8 +74,33 @@
       <b>49</b>
     </Hash>
   </Item>
+  <Item name="Dim Pengeluaran.dim">
+    <Time>636019734618890141</Time>
+    <Hash length="20">
+      <b>239</b>
+      <b>91</b>
+      <b>132</b>
+      <b>187</b>
+      <b>229</b>
+      <b>105</b>
+      <b>221</b>
+      <b>165</b>
+      <b>41</b>
+      <b>115</b>
+      <b>35</b>
+      <b>201</b>
+      <b>223</b>
+      <b>228</b>
+      <b>140</b>
+      <b>183</b>
+      <b>73</b>
+      <b>251</b>
+      <b>12</b>
+      <b>221</b>
+    </Hash>
+  </Item>
   <Item name="Dim Pegawai.dim">
-    <Time>636018813583027187</Time>
+    <Time>636019734618880141</Time>
     <Hash length="20">
       <b>27</b>
       <b>223</b>
@@ -100,7 +125,7 @@
     </Hash>
   </Item>
   <Item name="Dim Waktu.dim">
-    <Time>636018814883040072</Time>
+    <Time>636019734618910142</Time>
     <Hash length="20">
       <b>144</b>
       <b>54</b>
@@ -125,7 +150,7 @@
     </Hash>
   </Item>
   <Item name="Dim Client.dim">
-    <Time>636018813252527811</Time>
+    <Time>636019734618880141</Time>
     <Hash length="20">
       <b>33</b>
       <b>1</b>
@@ -150,7 +175,7 @@
     </Hash>
   </Item>
   <Item name="Dim Bidang.dim">
-    <Time>636018812945306140</Time>
+    <Time>636019734618870140</Time>
     <Hash length="20">
       <b>116</b>
       <b>83</b>
@@ -175,7 +200,7 @@
     </Hash>
   </Item>
   <Item name="PengeluaranNonProjekCube.partitions">
-    <Time>636018818048983268</Time>
+    <Time>636019734619010148</Time>
     <Hash length="20">
       <b>250</b>
       <b>8</b>
@@ -200,7 +225,7 @@
     </Hash>
   </Item>
   <Item name="LokasiProjectCube.partitions">
-    <Time>636018817307363607</Time>
+    <Time>636019734618970146</Time>
     <Hash length="20">
       <b>233</b>
       <b>244</b>
@@ -225,7 +250,7 @@
     </Hash>
   </Item>
   <Item name="Dim Sub Bidang.dim">
-    <Time>636018814352367830</Time>
+    <Time>636019734618900142</Time>
     <Hash length="20">
       <b>68</b>
       <b>36</b>
@@ -250,7 +275,7 @@
     </Hash>
   </Item>
   <Item name="PengeluaranProjekCube.partitions">
-    <Time>636018818744087216</Time>
+    <Time>636019734619020149</Time>
     <Hash length="20">
       <b>60</b>
       <b>228</b>
@@ -275,7 +300,7 @@
     </Hash>
   </Item>
   <Item name="HandleProjekCube.cube">
-    <Time>636018815947146718</Time>
+    <Time>636019734618950145</Time>
     <Hash length="20">
       <b>108</b>
       <b>182</b>
@@ -300,57 +325,32 @@
     </Hash>
   </Item>
   <Item name="Blantickindo Warehouse.ds">
-    <Time>636018812603444081</Time>
+    <Time>636019747436943802</Time>
     <Hash length="20">
-      <b>23</b>
-      <b>155</b>
-      <b>171</b>
-      <b>218</b>
-      <b>220</b>
-      <b>207</b>
-      <b>126</b>
-      <b>156</b>
-      <b>102</b>
-      <b>149</b>
-      <b>118</b>
-      <b>81</b>
-      <b>0</b>
-      <b>100</b>
-      <b>100</b>
-      <b>57</b>
-      <b>61</b>
-      <b>53</b>
-      <b>245</b>
-      <b>225</b>
-    </Hash>
-  </Item>
-  <Item name="PengeluaranProjekCube.cube">
-    <Time>636018818743930853</Time>
-    <Hash length="20">
-      <b>77</b>
-      <b>171</b>
-      <b>246</b>
-      <b>239</b>
-      <b>65</b>
-      <b>220</b>
-      <b>124</b>
-      <b>105</b>
-      <b>128</b>
-      <b>149</b>
-      <b>21</b>
-      <b>224</b>
+      <b>54</b>
+      <b>164</b>
+      <b>235</b>
+      <b>50</b>
       <b>200</b>
-      <b>147</b>
-      <b>165</b>
-      <b>175</b>
-      <b>85</b>
-      <b>8</b>
-      <b>13</b>
+      <b>168</b>
+      <b>110</b>
+      <b>171</b>
       <b>14</b>
+      <b>85</b>
+      <b>165</b>
+      <b>110</b>
+      <b>163</b>
+      <b>133</b>
+      <b>165</b>
+      <b>163</b>
+      <b>234</b>
+      <b>243</b>
+      <b>209</b>
+      <b>47</b>
     </Hash>
   </Item>
   <Item name="BlantickindoWarehouseRelation.dsv">
-    <Time>636018812766355478</Time>
+    <Time>636019734618860139</Time>
     <Hash length="20">
       <b>224</b>
       <b>162</b>
@@ -375,7 +375,7 @@
     </Hash>
   </Item>
   <Item name="PendapatanProjekCube.partitions">
-    <Time>636018817646990240</Time>
+    <Time>636019734619000147</Time>
     <Hash length="20">
       <b>34</b>
       <b>37</b>
@@ -400,7 +400,7 @@
     </Hash>
   </Item>
   <Item name="LokasiProjectCube.cube">
-    <Time>636018817307207343</Time>
+    <Time>636019734618970146</Time>
     <Hash length="20">
       <b>31</b>
       <b>154</b>
@@ -425,7 +425,7 @@
     </Hash>
   </Item>
   <Item name="BlantackindoCube.database">
-    <Time>636018812479364457</Time>
+    <Time>636019734618770134</Time>
     <Hash length="20">
       <b>80</b>
       <b>167</b>
@@ -450,7 +450,7 @@
     </Hash>
   </Item>
   <Item name="PendapatanProjekCube.cube">
-    <Time>636018817646677989</Time>
+    <Time>636019734618980146</Time>
     <Hash length="20">
       <b>221</b>
       <b>181</b>
@@ -474,29 +474,29 @@
       <b>85</b>
     </Hash>
   </Item>
-  <Item name="Dim Pengeluaran.dim">
-    <Time>636018813986250489</Time>
+  <Item name="PengeluaranProjekCube.cube">
+    <Time>636019734619010148</Time>
     <Hash length="20">
+      <b>77</b>
+      <b>171</b>
+      <b>246</b>
       <b>239</b>
-      <b>91</b>
-      <b>132</b>
-      <b>187</b>
-      <b>229</b>
+      <b>65</b>
+      <b>220</b>
+      <b>124</b>
       <b>105</b>
-      <b>221</b>
+      <b>128</b>
+      <b>149</b>
+      <b>21</b>
+      <b>224</b>
+      <b>200</b>
+      <b>147</b>
       <b>165</b>
-      <b>41</b>
-      <b>115</b>
-      <b>35</b>
-      <b>201</b>
-      <b>223</b>
-      <b>228</b>
-      <b>140</b>
-      <b>183</b>
-      <b>73</b>
-      <b>251</b>
-      <b>12</b>
-      <b>221</b>
+      <b>175</b>
+      <b>85</b>
+      <b>8</b>
+      <b>13</b>
+      <b>14</b>
     </Hash>
   </Item>
 </Infos>

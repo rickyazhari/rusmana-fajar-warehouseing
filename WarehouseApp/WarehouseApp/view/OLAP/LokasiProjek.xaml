@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800">
     <UserControl.Resources>
-        <dx:PivotOlapDataSource x:Key="PivotOlapDataSource" Cube="LokasiProjectCube" Catalog="BlantackindoCube" ConnectionTimeout="60" LocaleIdentifier="1057" Password="{x:Null}" Provider="MSOLAP.6" QueryTimeout="30" Server="LENOVO-PC" UserId="{x:Null}">
+        <dx:PivotOlapDataSource x:Key="PivotOlapDataSource" Cube="LokasiProjectCube" Catalog="BlantackindoCube" ConnectionTimeout="60" LocaleIdentifier="1057" Password="{x:Null}" Provider="MSOLAP.6" QueryTimeout="30" Server="TOSHIBA-PC" UserId="{x:Null}">
             <dx:DesignDataManager.DesignData>
                 <dx:DesignDataSettings RowCount="5"/>
             </dx:DesignDataManager.DesignData>
@@ -49,7 +49,7 @@
                 <dxc:ChartControl x:Name="chartControl"  DataSource="{Binding ChartDataSource, ElementName=pivotGridControl}" Height="400" Visibility="Collapsed">
                     <dxc:XYDiagram2D SeriesDataMember="Series">
                         <dxc:XYDiagram2D.SeriesTemplate>
-                            <dxc:LineSeries2D ArgumentDataMember="Arguments" ValueDataMember="Values"/>
+                            <dxc:BarSideBySideSeries2D ArgumentDataMember="Arguments" ValueDataMember="Values"/>
                         </dxc:XYDiagram2D.SeriesTemplate>
                     </dxc:XYDiagram2D>
                 </dxc:ChartControl>
@@ -69,6 +69,7 @@
                         Width="90"
                         Height="90"
                         Margin="5"
+                     Cursor="Hand"
                         x:Name="PivotBtn"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Top" Stroke="#FF3D7A11" MouseLeftButtonUp="PivotBtn_MouseLeftButtonUp">
@@ -84,9 +85,11 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Orientation="Vertical"
+                    Cursor="Hand"
+                    x:Name="spPivotBtn"
                         Margin="0,15,0,0"
                         Width="90"
-                        Height="90">
+                        Height="90" MouseLeftButtonUp="spPivotBtn_MouseLeftButtonUp">
                     <Image
                             Source="/WarehouseApp;component/Resources/olap.png"
                             Width="60px"
@@ -114,6 +117,7 @@
                         Width="90"
                         Height="90"
                         Margin="5"
+                    Cursor="Hand"
                         x:Name="ChartBtn"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Top" Stroke="#FF3D7A11" MouseLeftButtonUp="ChartBtn_MouseLeftButtonUp">
@@ -129,9 +133,11 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Orientation="Vertical"
+                        Cursor="Hand"
+                    x:Name="spChartBTn"
                         Margin="0,15,0,0"
                         Width="90"
-                        Height="90">
+                        Height="90" MouseLeftButtonUp="spChartBTn_MouseLeftButtonUp">
                     <Image
                             Source="/WarehouseApp;component/Resources/chart.png"
                             Width="60px"
@@ -159,6 +165,7 @@
                         Width="90"
                         Height="90"
                         Margin="5"
+                    Cursor="Hand"
                         x:Name="printBtn"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Top" Stroke="#FF3D7A11" MouseLeftButtonUp="printBtn_MouseLeftButtonUp">
@@ -173,10 +180,12 @@
                 <StackPanel
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
+                        Cursor="Hand"
+                    x:Name="spPrintBtn"
                         Orientation="Vertical"
                         Margin="0,15,0,0"
                         Width="90"
-                        Height="90">
+                        Height="90" MouseLeftButtonUp="spPrintBtn_MouseLeftButtonUp">
                     <Image
                             Source="/WarehouseApp;component/Resources/printer.png"
                             Width="60px"
@@ -188,7 +197,7 @@
                     <TextBlock
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
-                            Text="Chart"
+                            Text="Print"
                             FontWeight="Bold"
                             Foreground="#3D7A11"
                             />

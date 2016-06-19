@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LENOVO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA86TRvp9Hw0ud6/mJBW48nAAAAAACAAAAAAAQZgAAAAEAACAAAADL8P7PNbM9Brxs9L2UhDTIhVVeVHcy3eZzcp35GQwQOAAAAAAOgAAAAAIAACAAAAATxAFR+oEAPtFT+XnD/n6lyBef9MXxFgfUxhhvg1+IrpAAAACTowkwgdb4U/1IIIGA5g4h9F2pMYYemN3uELa06WETM3WKtsI2aMjtgOE3hxP3/fp/ChRoOuLwE0Z+snnBG7dq45nvRLu2Mt0tD6+Ps/X9VOIJyIq3t89en7rkktw/ufbMzRKx6gLgHDJjVj3ijz4s+SfmMX4RNjx71Kn3WV5SKw/zNpo1qyP1FlwpTieUoE1AAAAAZyG5giJeYxVlaDWRFUcqbDNeW5cPxKmZx7bp2km2Yy0EzOkGxVzVSIEVYe5veCi3jtQUG46rfBZ0xb3txi0hTA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYTVCJn5Vh0WyYWVQm+vCBAAAAAACAAAAAAAQZgAAAAEAACAAAABQRdLIpuh65bJpdYMbONWFBonAZ+b+XMWobZZlVfVjcQAAAAAOgAAAAAIAACAAAADWCgvLwM/qOTKBWyhmj5yyG42LXjpOlKe4ycV2u6D36pAAAACn8/gewWL7am4qCK1seFsjQt0XS/hHhmQjMgGk1ld8nzTarb81jbRqVVvugxSUQvl/OgNFKLMJXvY73+huIyC20IlFigm0zwtAaJrQ/AB8xZqGJXcenVjroLw/knXtuveNWQwyhiCIPr6AI8qEuyNFipQ4cob9gWSgap6IDMiY5g3FsRoiK4TglOdmujGgfLFAAAAAQkWCVX92AlAzA8KuLrE9TsQqAXWhjR2vb/37QPK6SnhxJmD4011lsh6pHJNRBoJWtdPRccIp532RQRLP2A6BlQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6297AA2A-BD59-4A8F-8D9D-3D2857C9DEA8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D447439D-C7B2-49C5-8406-8C679134749F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -63,7 +63,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO-PC;Initial Catalog=blantickindo;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=TOSHIBA-PC;Initial Catalog=blantickindo;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -122,7 +122,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LENOVO-PC</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">TOSHIBA-PC</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -151,7 +151,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO-PC;Initial Catalog=blantickindo_warehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=TOSHIBA-PC;Initial Catalog=blantickindo_warehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -210,7 +210,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LENOVO-PC</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">TOSHIBA-PC</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

@@ -10,7 +10,7 @@ namespace WarehouseApp
     public class kon
     {
         private SqlCommand com = null;
-        private string konf = "Data Source=LENOVO-PC;Initial Catalog=blantickindo_warehouse;Integrated Security=True";
+        private string konf = "Data Source=TOSHIBA-PC;Initial Catalog=blantickindo_warehouse;Integrated Security=True";
         private SqlConnection koneksi = null;
         
 

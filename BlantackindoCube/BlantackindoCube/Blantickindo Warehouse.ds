@@ -3,7 +3,7 @@
   <Name>Blantickindo Warehouse</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=LENOVO-PC;Integrated Security=SSPI;Initial Catalog=blantickindo_warehouse</ConnectionString>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=TOSHIBA-PC;Integrated Security=SSPI;Initial Catalog=blantickindo_warehouse</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>

@@ -51,5 +51,20 @@ namespace WarehouseApp.view.OLAP
             var parent = Window.GetWindow(this);
             pivotGridControl.ShowPrintPreviewDialog(parent, "Laporan Pengeluaran Projek", "Laporan Pengeluaran Projek");
         }
+
+        private void spPrintBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            printBtn_MouseLeftButtonUp(sender, e);
+        }
+
+        private void spChartBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            ChartBtn_MouseLeftButtonUp(sender, e);
+        }
+
+        private void spPivotBtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            PivotBtn_MouseLeftButtonUp(sender, e);
+        }
     }
 }

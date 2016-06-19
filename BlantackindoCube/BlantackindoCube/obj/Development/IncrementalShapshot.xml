@@ -19,98 +19,98 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>F5ur2tzPfpxmlXZRAGRkOT019eE=6/18/2016 9:14:20 PM6/18/2016 9:14:20 PM</TimeStamp>
+        <TimeStamp>NqTrMsiobqsOVaVuo4Wlo+rz0S8=19/06/2016 23:12:2319/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Blantickindo Warehouse</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>4KKgPXJyW53WtdNGS6hO4tJ27G0=6/18/2016 9:14:36 PM6/18/2016 9:14:36 PM</TimeStamp>
+        <TimeStamp>4KKgPXJyW53WtdNGS6hO4tJ27G0=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>BlantickindoWarehouseRelation</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dFMvV8L2JoTvcB9umSRcBqwhO7Q=6/18/2016 9:14:54 PM6/18/2016 9:14:46 PM</TimeStamp>
+        <TimeStamp>dFMvV8L2JoTvcB9umSRcBqwhO7Q=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Bidang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>IQGCPEdXFZvbD6/Ay0KPDylEK94=6/18/2016 9:15:25 PM6/18/2016 9:15:19 PM</TimeStamp>
+        <TimeStamp>IQGCPEdXFZvbD6/Ay0KPDylEK94=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Client</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>G996jSWihS6rrcbaRZAAY5qHEus=6/18/2016 9:15:58 PM6/18/2016 9:15:51 PM</TimeStamp>
+        <TimeStamp>G996jSWihS6rrcbaRZAAY5qHEus=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Pegawai</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>71uEu+Vp3aUpcyPJ3+SMt0n7DN0=6/18/2016 9:16:38 PM6/18/2016 9:16:30 PM</TimeStamp>
+        <TimeStamp>71uEu+Vp3aUpcyPJ3+SMt0n7DN0=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Pengeluaran</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RCRASsJ2jTD0QCEHCCvxGEyD7aE=6/18/2016 9:17:15 PM6/18/2016 9:17:08 PM</TimeStamp>
+        <TimeStamp>RCRASsJ2jTD0QCEHCCvxGEyD7aE=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Sub Bidang</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>kDZmXpD8UXAHVQw8m1B0JyxaaFo=6/18/2016 9:18:08 PM6/18/2016 9:17:39 PM</TimeStamp>
+        <TimeStamp>kDZmXpD8UXAHVQw8m1B0JyxaaFo=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Waktu</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>k7uJxt9NJQNueok8cmlXpKGLsTE=6/18/2016 9:19:06 PM6/18/2016 9:18:56 PM</TimeStamp>
+        <TimeStamp>k7uJxt9NJQNueok8cmlXpKGLsTE=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>Dim Wilayah</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>bLbBqGOgUhpyR3cu9zcI32n7nPI=6/18/2016 9:19:54 PM6/18/2016 9:19:54 PM6zkcWRiJ96s1ntGlDL40/WHQnog=6/18/2016 9:19:54 PM6/18/2016 9:19:54 PM</TimeStamp>
+        <TimeStamp>bLbBqGOgUhpyR3cu9zcI32n7nPI=19/06/2016 22:51:0119/06/2016 22:51:016zkcWRiJ96s1ntGlDL40/WHQnog=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>HandleProjekCube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>H5pMgvBVq6Fgh4JkfjyYiD/j9lA=6/18/2016 9:22:10 PM6/18/2016 9:22:10 PM6fTU5AK9M3fIgcMkJfcjyN5TpqM=6/18/2016 9:22:10 PM6/18/2016 9:22:10 PM</TimeStamp>
+        <TimeStamp>H5pMgvBVq6Fgh4JkfjyYiD/j9lA=19/06/2016 22:51:0119/06/2016 22:51:016fTU5AK9M3fIgcMkJfcjyN5TpqM=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>LokasiProjectCube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>3bXTpqNDSj1iW9KZ/OSQRKavAVU=6/18/2016 9:22:44 PM6/18/2016 9:22:44 PMIiXwCvv8Qs/8JxbQFTGG/q/YL9k=6/18/2016 9:22:44 PM6/18/2016 9:22:44 PM</TimeStamp>
+        <TimeStamp>3bXTpqNDSj1iW9KZ/OSQRKavAVU=19/06/2016 22:51:0119/06/2016 22:51:01IiXwCvv8Qs/8JxbQFTGG/q/YL9k=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>PendapatanProjekCube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>fOxb4iNIwzjVmA6uLbQPZib80CA=6/18/2016 9:23:24 PM6/18/2016 9:23:24 PM+giOGaMG4P5jltv7kOaFxGB8Ed0=6/18/2016 9:23:24 PM6/18/2016 9:23:24 PM</TimeStamp>
+        <TimeStamp>fOxb4iNIwzjVmA6uLbQPZib80CA=19/06/2016 22:51:0119/06/2016 22:51:01+giOGaMG4P5jltv7kOaFxGB8Ed0=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>PengeluaranNonProjekCube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Tav270HcfGmAlRXgyJOlr1UIDQ4=6/18/2016 9:24:34 PM6/18/2016 9:24:34 PMPORGrJCPWJLmUqnRG4d8MrnNTbg=6/18/2016 9:24:34 PM6/18/2016 9:24:34 PM</TimeStamp>
+        <TimeStamp>Tav270HcfGmAlRXgyJOlr1UIDQ4=19/06/2016 22:51:0119/06/2016 22:51:01PORGrJCPWJLmUqnRG4d8MrnNTbg=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
         <ID>
           <String>PengeluaranProjekCube</String>
         </ID>
@@ -118,7 +118,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>UKe36dqIUTujNGs84Xi1+YO52M4=6/18/2016 9:14:07 PM6/18/2016 9:14:07 PM</TimeStamp>
+      <TimeStamp>UKe36dqIUTujNGs84Xi1+YO52M4=19/06/2016 22:51:0119/06/2016 22:51:01</TimeStamp>
       <ID>
         <String>BlantackindoCube</String>
       </ID>
@@ -127,5 +127,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-06-18T14:26:14.046667Z</LastDeployed>
+  <LastDeployed>2016-06-19T16:21:04.723333Z</LastDeployed>
 </DeploymentSnapshot>

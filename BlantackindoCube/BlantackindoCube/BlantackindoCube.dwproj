@@ -108,7 +108,7 @@
           <ConfigurationSetting>
             <Id>Blantickindo Warehouse</Id>
             <Name>Blantickindo Warehouse</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LENOVO-PC;Integrated Security=SSPI;Initial Catalog=blantickindo_warehouse</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=TOSHIBA-PC;Integrated Security=SSPI;Initial Catalog=blantickindo_warehouse</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

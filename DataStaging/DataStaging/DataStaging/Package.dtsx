@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{6297AA2A-BD59-4A8F-8D9D-3D2857C9DEA8}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{D447439D-C7B2-49C5-8406-8C679134749F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="LENOVO-PC.blantickindo">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LENOVO-PC;Initial Catalog=blantickindo;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=TOSHIBA-PC;Initial Catalog=blantickindo;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="LENOVO-PC.blantickindo_warehouse">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LENOVO-PC;Initial Catalog=blantickindo_warehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=TOSHIBA-PC;Initial Catalog=blantickindo_warehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -8270,24 +8270,24 @@ where [refTable].[id_real_subbidang] = ?</property>
               startId="Package\pengeluaran projek\Merge Join 1.Outputs[Merge Join Output]" />
             <path
               refId="Package\pengeluaran projek.Paths[OLE DB Source Output3]"
-              endId="Package\pengeluaran projek\Sort.Inputs[Sort Input]"
+              endId="Package\pengeluaran projek\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\pengeluaran projek\pengeluaran projek.Outputs[OLE DB Source Output]" />
+              startId="Package\pengeluaran projek\detail_pengeluaran.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\pengeluaran projek.Paths[OLE DB Source Output2]"
-              endId="Package\pengeluaran projek\Sort 3.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\pengeluaran projek\sub bidang.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\pengeluaran projek.Paths[OLE DB Source Output1]"
               endId="Package\pengeluaran projek\Sort 2.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\pengeluaran projek\projek.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\pengeluaran projek.Paths[OLE DB Source Output]"
-              endId="Package\pengeluaran projek\Sort 1.Inputs[Sort Input]"
+              refId="Package\pengeluaran projek.Paths[OLE DB Source Output1]"
+              endId="Package\pengeluaran projek\Sort 3.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\pengeluaran projek\detail_pengeluaran.Outputs[OLE DB Source Output]" />
+              startId="Package\pengeluaran projek\sub bidang.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\pengeluaran projek.Paths[OLE DB Source Output]"
+              endId="Package\pengeluaran projek\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\pengeluaran projek\pengeluaran projek.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\pengeluaran projek.Paths[Sort Output]"
               endId="Package\pengeluaran projek\Merge Join 1.Inputs[Merge Join Left Input]"
@@ -11472,84 +11472,84 @@ where [refTable].[id_real_subbidang] = ?</property>
               startId="Package\staging dimension\Merge 1.Outputs[Merge Output 1]" />
             <path
               refId="Package\staging dimension.Paths[OLE DB Source Output9]"
-              endId="Package\staging dimension\dim pegawai.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\pegawai.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output8]"
-              endId="Package\staging dimension\dim_pengeluaran.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\jenis pengeluaran.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output7]"
-              endId="Package\staging dimension\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\payroll.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output5]"
-              endId="Package\staging dimension\Sort 3.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\Projek.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output6]"
-              endId="Package\staging dimension\dim sub bidang.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\sub bidang.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output3]"
-              endId="Package\staging dimension\Sort 2.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\pengeluaran projek.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output2]"
-              endId="Package\staging dimension\dim bidang.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\bidang.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output1]"
-              endId="Package\staging dimension\dim client.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\clieant.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output]"
-              endId="Package\staging dimension\OLE DB Destination.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\staging dimension\daerah.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\staging dimension.Paths[OLE DB Source Output4]"
               endId="Package\staging dimension\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\staging dimension\pengNonProjek.Outputs[OLE DB Source Output]" />
             <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output8]"
+              endId="Package\staging dimension\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\daerah.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output7]"
+              endId="Package\staging dimension\dim client.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\clieant.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output5]"
+              endId="Package\staging dimension\Sort 2.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\pengeluaran projek.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output6]"
+              endId="Package\staging dimension\dim bidang.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\bidang.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output3]"
+              endId="Package\staging dimension\Sort 3.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\Projek.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output2]"
+              endId="Package\staging dimension\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\payroll.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output1]"
+              endId="Package\staging dimension\dim_pengeluaran.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\jenis pengeluaran.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output]"
+              endId="Package\staging dimension\dim pegawai.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\pegawai.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\staging dimension.Paths[OLE DB Source Output4]"
+              endId="Package\staging dimension\dim sub bidang.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\staging dimension\sub bidang.Outputs[OLE DB Source Output]" />
+            <path
               refId="Package\staging dimension.Paths[Sort Output5]"
+              endId="Package\staging dimension\Merge 1.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\staging dimension\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\staging dimension.Paths[Sort Output]"
               endId="Package\staging dimension\Merge 2.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\staging dimension\Sort 5.Outputs[Sort Output]" />
             <path
-              refId="Package\staging dimension.Paths[Sort Output]"
+              refId="Package\staging dimension.Paths[Sort Output1]"
               endId="Package\staging dimension\Merge 1.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\staging dimension\Sort 2.Outputs[Sort Output]" />
             <path
-              refId="Package\staging dimension.Paths[Sort Output1]"
+              refId="Package\staging dimension.Paths[Sort Output2]"
               endId="Package\staging dimension\Merge 2.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\staging dimension\Sort 4.Outputs[Sort Output]" />
             <path
-              refId="Package\staging dimension.Paths[Sort Output2]"
+              refId="Package\staging dimension.Paths[Sort Output3]"
               endId="Package\staging dimension\Merge.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\staging dimension\Sort 1.Outputs[Sort Output]" />
             <path
-              refId="Package\staging dimension.Paths[Sort Output3]"
+              refId="Package\staging dimension.Paths[Sort Output4]"
               endId="Package\staging dimension\Merge.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\staging dimension\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\staging dimension.Paths[Sort Output4]"
-              endId="Package\staging dimension\Merge 1.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\staging dimension\Sort 3.Outputs[Sort Output]" />
             <path
               refId="Package\staging dimension.Paths[Sort Output6]"
               endId="Package\staging dimension\Derived Column.Inputs[Derived Column Input]"
@@ -16185,7 +16185,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\pengeluaran projek.Paths[OLE DB Source Output]"
+          Id="Package\pengeluaran projek.Paths[OLE DB Source Output3]"
           TopLeft="408.5,69">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16221,7 +16221,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\pengeluaran projek.Paths[OLE DB Source Output1]"
+          Id="Package\pengeluaran projek.Paths[OLE DB Source Output2]"
           TopLeft="588.75,65">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16245,7 +16245,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\pengeluaran projek.Paths[OLE DB Source Output2]"
+          Id="Package\pengeluaran projek.Paths[OLE DB Source Output1]"
           TopLeft="797,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16269,7 +16269,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\pengeluaran projek.Paths[OLE DB Source Output3]"
+          Id="Package\pengeluaran projek.Paths[OLE DB Source Output]"
           TopLeft="195.5,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16763,30 +16763,18 @@ where [refTable].[id_realpegawai] = ?</property>
           TopLeft="716,304" />
         <EdgeLayout
           Id="Package\staging dimension.Paths[Sort Output]"
-          TopLeft="410.5,140">
+          TopLeft="439,253">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83,23"
+              EndConnector="-53,0"
               Start="0,0"
-              End="83,15.5">
+              End="-45.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,7.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.5"
-                    Point2="0,11.5"
-                    Point3="4,11.5" />
-                  <mssgle:LineSegment
-                    End="79,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="79,11.5"
-                    Point2="83,11.5"
-                    Point3="83,15.5" />
-                  <mssgle:LineSegment
-                    End="83,15.5" />
+                    End="-45.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16797,116 +16785,6 @@ where [refTable].[id_realpegawai] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\staging dimension.Paths[OLE DB Source Output9]"
-          TopLeft="1028.75,262">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39"
-              Start="0,0"
-              End="0,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output8]"
-          TopLeft="796,270">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output7]"
-          TopLeft="105.5,67">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output6]"
-          TopLeft="1007.5,74">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36"
-              Start="0,0"
-              End="0,28.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output5]"
-          TopLeft="561.25,69">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25"
-              Start="0,0"
-              End="0,17.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output4]"
           TopLeft="240.5,68">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16928,19 +16806,19 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output3]"
-          TopLeft="411.75,69">
+          Id="Package\staging dimension.Paths[OLE DB Source Output8]"
+          TopLeft="798.251794258373,72">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29"
+              EndConnector="0,60.451244813278"
               Start="0,0"
-              End="0,21.5">
+              End="0,52.951244813278">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,52.951244813278" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16950,29 +16828,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output2]"
-          TopLeft="1205,248">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output1]"
+          Id="Package\staging dimension.Paths[OLE DB Source Output7]"
           TopLeft="1198.75,77">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -16994,19 +16850,151 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[OLE DB Source Output]"
-          TopLeft="798.251794258373,72">
+          Id="Package\staging dimension.Paths[OLE DB Source Output6]"
+          TopLeft="1205,248">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.451244813278"
+              EndConnector="0,51"
               Start="0,0"
-              End="0,52.951244813278">
+              End="0,43.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.951244813278" />
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output5]"
+          TopLeft="411.75,69">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output4]"
+          TopLeft="1007.5,74">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36"
+              Start="0,0"
+              End="0,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output3]"
+          TopLeft="561.25,69">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25"
+              Start="0,0"
+              End="0,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output2]"
+          TopLeft="105.5,67">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output1]"
+          TopLeft="796,270">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[OLE DB Source Output]"
+          TopLeft="1028.75,262">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17127,28 +17115,6 @@ where [refTable].[id_realpegawai] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\staging dimension.Paths[Sort Output5]"
-          TopLeft="439,253">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-53,0"
-              Start="0,0"
-              End="-45.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-45.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\staging dimension.Paths[Sort Output4]"
           TopLeft="561.5,136">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17182,7 +17148,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[Sort Output3]"
+          Id="Package\staging dimension.Paths[Sort Output4]"
           TopLeft="106,136">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17216,7 +17182,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[Sort Output2]"
+          Id="Package\staging dimension.Paths[Sort Output3]"
           TopLeft="237.5,135">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17250,7 +17216,7 @@ where [refTable].[id_realpegawai] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\staging dimension.Paths[Sort Output1]"
+          Id="Package\staging dimension.Paths[Sort Output2]"
           TopLeft="226,252.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -17263,6 +17229,40 @@ where [refTable].[id_realpegawai] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="35.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\staging dimension.Paths[Sort Output1]"
+          TopLeft="410.5,140">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="83,23"
+              Start="0,0"
+              End="83,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="4,11.5" />
+                  <mssgle:LineSegment
+                    End="79,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="79,11.5"
+                    Point2="83,11.5"
+                    Point3="83,15.5" />
+                  <mssgle:LineSegment
+                    End="83,15.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
