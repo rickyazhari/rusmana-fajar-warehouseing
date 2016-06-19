@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using WarehouseApp.view.OLAP;
 namespace WarehouseApp.view
 {
     /// <summary>
@@ -25,6 +25,8 @@ namespace WarehouseApp.view
             submenu.Children.Add(new menu(this));
             //Content.Children.Add(new olap());
             App.menuViewModel.SelectedItem = Constant.OLAP_SELECTED;
+            Content.Children.Clear();
+            Content.Children.Add(new HandleProjek());
         }
 
         private void exitbtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -36,7 +38,10 @@ namespace WarehouseApp.view
         {
             if (App.menuViewModel.SelectedItem != Constant.OLAP_SELECTED)
             {
-                //set content
+                App.menuViewModel.SetOlap();
+                App.menuViewModel.SelectedItem = Constant.OLAP_SELECTED;
+                Content.Children.Clear();
+                Content.Children.Add(new HandleProjek());
             }
 
             App.menuViewModel.SetOlap();

@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>BlantackindoCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>F5ur2tzPfpxmlXZRAGRkOT019eE=6/18/2016 9:14:20 PM6/18/2016 9:14:20 PM</TimeStamp>
+        <ID>
+          <String>Blantickindo Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4KKgPXJyW53WtdNGS6hO4tJ27G0=6/18/2016 9:14:36 PM6/18/2016 9:14:36 PM</TimeStamp>
+        <ID>
+          <String>BlantickindoWarehouseRelation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dFMvV8L2JoTvcB9umSRcBqwhO7Q=6/18/2016 9:14:54 PM6/18/2016 9:14:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Bidang</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IQGCPEdXFZvbD6/Ay0KPDylEK94=6/18/2016 9:15:25 PM6/18/2016 9:15:19 PM</TimeStamp>
+        <ID>
+          <String>Dim Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G996jSWihS6rrcbaRZAAY5qHEus=6/18/2016 9:15:58 PM6/18/2016 9:15:51 PM</TimeStamp>
+        <ID>
+          <String>Dim Pegawai</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>71uEu+Vp3aUpcyPJ3+SMt0n7DN0=6/18/2016 9:16:38 PM6/18/2016 9:16:30 PM</TimeStamp>
+        <ID>
+          <String>Dim Pengeluaran</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RCRASsJ2jTD0QCEHCCvxGEyD7aE=6/18/2016 9:17:15 PM6/18/2016 9:17:08 PM</TimeStamp>
+        <ID>
+          <String>Dim Sub Bidang</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kDZmXpD8UXAHVQw8m1B0JyxaaFo=6/18/2016 9:18:08 PM6/18/2016 9:17:39 PM</TimeStamp>
+        <ID>
+          <String>Dim Waktu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k7uJxt9NJQNueok8cmlXpKGLsTE=6/18/2016 9:19:06 PM6/18/2016 9:18:56 PM</TimeStamp>
+        <ID>
+          <String>Dim Wilayah</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>bLbBqGOgUhpyR3cu9zcI32n7nPI=6/18/2016 9:19:54 PM6/18/2016 9:19:54 PM6zkcWRiJ96s1ntGlDL40/WHQnog=6/18/2016 9:19:54 PM6/18/2016 9:19:54 PM</TimeStamp>
+        <ID>
+          <String>HandleProjekCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>H5pMgvBVq6Fgh4JkfjyYiD/j9lA=6/18/2016 9:22:10 PM6/18/2016 9:22:10 PM6fTU5AK9M3fIgcMkJfcjyN5TpqM=6/18/2016 9:22:10 PM6/18/2016 9:22:10 PM</TimeStamp>
+        <ID>
+          <String>LokasiProjectCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3bXTpqNDSj1iW9KZ/OSQRKavAVU=6/18/2016 9:22:44 PM6/18/2016 9:22:44 PMIiXwCvv8Qs/8JxbQFTGG/q/YL9k=6/18/2016 9:22:44 PM6/18/2016 9:22:44 PM</TimeStamp>
+        <ID>
+          <String>PendapatanProjekCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>fOxb4iNIwzjVmA6uLbQPZib80CA=6/18/2016 9:23:24 PM6/18/2016 9:23:24 PM+giOGaMG4P5jltv7kOaFxGB8Ed0=6/18/2016 9:23:24 PM6/18/2016 9:23:24 PM</TimeStamp>
+        <ID>
+          <String>PengeluaranNonProjekCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Tav270HcfGmAlRXgyJOlr1UIDQ4=6/18/2016 9:24:34 PM6/18/2016 9:24:34 PMPORGrJCPWJLmUqnRG4d8MrnNTbg=6/18/2016 9:24:34 PM6/18/2016 9:24:34 PM</TimeStamp>
+        <ID>
+          <String>PengeluaranProjekCube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>UKe36dqIUTujNGs84Xi1+YO52M4=6/18/2016 9:14:07 PM6/18/2016 9:14:07 PM</TimeStamp>
+      <ID>
+        <String>BlantackindoCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-06-18T14:26:14.046667Z</LastDeployed>
+</DeploymentSnapshot>

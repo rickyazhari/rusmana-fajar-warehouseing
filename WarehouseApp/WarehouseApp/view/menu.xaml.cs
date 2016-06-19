@@ -102,8 +102,24 @@ namespace WarehouseApp.view
             }
             else if (App.menuViewModel.SelectedItem == Constant.OLAP_SELECTED)
             {
+                parent.Content.Children.Clear();
                 switch (ListMenu.SelectedIndex)
                 {
+                    case 1 :
+                        parent.Content.Children.Add(new OLAP.LokasiProjek());
+                        break;
+                    case 2 :
+                        parent.Content.Children.Add(new OLAP.PendapatanProjek());
+                        break;
+                    case 3 :
+                        parent.Content.Children.Add(new OLAP.PengeluaranNonProjek());
+                        break;
+                    case 4 :
+                        parent.Content.Children.Add(new OLAP.PengeluaranProjek());
+                        break;
+                    default :
+                        parent.Content.Children.Add(new OLAP.HandleProjek());
+                        break;
 
                 }
             }

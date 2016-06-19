@@ -19,3 +19,10 @@ E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\Ware
 E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\view\menu.baml
 E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\view\DimFact.g.cs
 E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\view\DimFact.baml
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\view\OLAP\HandleProjek.baml
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\view\OLAP\HandleProjek.g.cs
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\obj\Debug\WarehouseApp.exe.licenses
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\bin\Debug\Microsoft.SQLServer.ManagedDTS.dll
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\bin\Debug\Microsoft.SqlServer.Management.IntegrationServices.dll
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+E:\kari\rusmana fajar\datawarehouse\rusmana-fajar-warehouseing\WarehouseApp\WarehouseApp\bin\Debug\Microsoft.SqlServer.Smo.dll
