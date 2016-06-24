@@ -59,6 +59,7 @@
             <StackPanel
                 x:Name="menu_utama"
                 Grid.Row="0"
+                Visibility="Collapsed"
                 Grid.ColumnSpan="2"
                 Orientation="Horizontal"
                 Margin="0,5,0,10"
